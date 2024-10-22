@@ -13,14 +13,14 @@
   background-color: #fff;
   width: 1200px;
   height: 165px;
-  margin: 0  264px 0 264px;
-  padding: 0 55px 0 55px;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
+  margin: 0 264px;
+  padding: 0 55px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   display: block;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 }
 
 .searchblock {
@@ -30,7 +30,7 @@
   width: 1170px;
   padding: 4px 15px 8px 15px;
   max-width: 1605px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman, Times, serif';
 }
 
 .material-icons {
@@ -58,7 +58,6 @@
   color: #fff;
 }
 
-
 .lang ul {
   display: flex;
   justify-content: center;
@@ -80,7 +79,7 @@
   display: block;
   height: 64px;
   width: 1200px;
-  padding: 4px 15px 8px 15px;
+  padding: 4px 15px 8px;
   max-width: 1605px;
 }
 
@@ -97,16 +96,16 @@
   width: 1200px;
   justify-content: center;
   align-items: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman, Times, serif';
 }
 
 .menublock {
   height: 46px;
   width: 1200px;
-  padding: 4px 15px 8px 15px;
+  padding: 4px 15px 8px;
   max-width: 1605px;
-  border-bottom:1px solid black ;
-  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 1px solid black;
+  font-family: 'Times New Roman, Times, serif';
 }
 
 .navlist {
@@ -120,8 +119,8 @@
   margin-top: 5px;
   width: 1200px;
   height: 44px;
-  border-bottom:1px solid black ;
-  border-top:1px solid black ;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .red-list {
@@ -131,7 +130,7 @@
   align-items: center;
   height: inherit;
   font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 #red {
