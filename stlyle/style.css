@@ -20,7 +20,7 @@
   left: 0;
   bottom: 0;
   display: block;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: "Franklin Gothic Medium, Arial Narrow, Arial, sans-serif";
 }
 
 .searchblock {
@@ -28,9 +28,9 @@
   justify-content: space-between;
   height: 36px;
   width: 1170px;
-  padding: 4px 15px 8px 15px;
+  padding: 4px 15px 8px;
   max-width: 1605px;
-  font-family: 'Times New Roman, Times, serif';
+  font-family: "Times New Roman, Times, serif";
 }
 
 .material-icons {
@@ -96,7 +96,7 @@
   width: 1200px;
   justify-content: center;
   align-items: center;
-  font-family: 'Times New Roman, Times, serif';
+  font-family: "Times New Roman, Times, serif";
 }
 
 .menublock {
@@ -105,7 +105,7 @@
   padding: 4px 15px 8px;
   max-width: 1605px;
   border-bottom: 1px solid black;
-  font-family: 'Times New Roman, Times, serif';
+  font-family: "Times New Roman, Times, serif";
 }
 
 .navlist {
@@ -130,7 +130,7 @@
   align-items: center;
   height: inherit;
   font-size: 16px;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman, Times, serif";
 }
 
 #red {
