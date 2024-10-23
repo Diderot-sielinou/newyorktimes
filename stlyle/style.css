@@ -12,7 +12,7 @@
   color: #121212;
   background-color: #fff;
   width: 1200px;
-  height: 165px;
+  height: 190px;
   margin: 0 264px;
   padding: 0 55px;
   top: 0;
@@ -114,8 +114,7 @@
 .red-nav {
   margin-top: 5px;
   width: 1200px;
-  height: 44px;
-  border-bottom: 1px solid black;
+  height: 27px;
   border-top: 1px solid black;
 }
 
@@ -126,8 +125,176 @@
   align-items: center;
   height: inherit;
   font-size: 16px;
+  border-bottom: 1px solid black;
 }
 
 #red {
   color: red;
+}
+
+.grid-template {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 1300px;
+  margin: 0 264px;
+  padding: 0 55px;
+  margin-top: 20px;
+}
+
+.first-block{
+  display: grid;
+  grid-column: span 1;
+  gap: 30px;
+  
+}
+
+.first-container {
+  float: left;
+  width: 340px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.container-img {
+  width: 400px;
+  height: 300px;
+  float: right;
+}
+
+.container-img img {
+  width: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+#big {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom:10px ;
+}
+
+
+#last {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.float-left {
+  float: left;
+  width: 48%;
+  border-right: 1px solid;
+}
+
+.font-16 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.font-14 {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.float-right {
+  float: right;
+  width: 48%;
+}
+
+.min-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.w-124 {
+  width: 125px;
+}
+
+.left {
+  float: left;
+  width: 120px;
+  border-right: 1px solid rgb(38, 36, 36);
+}
+
+.right{
+  float: right;
+  width: 229px;
+}
+
+h3 {
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.float-img {
+  float: left;
+  width: 85px;
+  height: 85px;
+}
+
+.float-img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.float-text {
+  float: right;
+  width: 120px;
+}
+
+.min-containe {
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  height: 100px;
+  gap: 10px;
+}
+.div-img {
+  width: 100px;
+  height: 120px;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+.flex-x {
+  width: 100%;
+  width: 100%;
+  /* margin: 12px 0; */
+  margin-top: -9px;
+  margin-bottom: 13px;
+}
+
+
+.flex-x-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.border-right {
+  border-right: 1px solid black;
+  margin-right: 2px;
+  width: 55%;
 }
