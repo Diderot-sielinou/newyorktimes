@@ -293,11 +293,13 @@ h3 {
 }
 
 .second-block {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   width: 400px;
   margin-left: 7px;
   border-left: 1px solid;
+  padding-left:15px;
 }
 
 .content {
@@ -330,3 +332,86 @@ h3 {
 .rightt {
   float: right;
 }
+
+.sec-imgz {
+  width: 380px;
+  height: auto;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.sec-imgz img {
+  width: 100%;
+}
+
+.cont {
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+ 
+.div-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p {
+  width: 300px;
+}
+
+.p > p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.p-img{
+  width: 100px;
+  height: 100px;
+}
+
+.p-img img {
+  width: 100%;
+}
+
+.p-img-americ {
+  width: 150px;
+  height: 150px;
+}
+
+.p-a {
+  width: auto;
+  height: 100px;
+}
+
+.p-img-americ img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.m-text {
+  width: 230px;
+}
+
+.m-img {
+  width: 130px;
+  height: 130px;
+}
+
+.m-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.hr {
+  position: relative;
+  width: 1300px;
+  margin: 10px 264px;
+}
+
+.hr span {
+  position: absolute;
+  top: 0;
+  left: 0;
+} 
